@@ -11,7 +11,7 @@ macro_rules! messages_internal {
 #[macro_export]
 macro_rules! messages {
     ($enu:ident, $( $x:ident $( ( $( $s:ty),* ) )? => $y:expr ),* $( , )?) => {
-        use crate::messages_internal;
+        use ev_apple::messages_internal;
 
         #[derive(Clone, PartialEq, Debug)]
         pub enum $enu {
