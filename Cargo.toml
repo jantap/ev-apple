@@ -1,8 +1,10 @@
 [package]
 name = "ev-apple"
 version = "0.1.1"
+license = "MIT"
 authors = ["Jan Wojcicki <janwojcicki45@gmail.com>"]
 edition = "2018"
+description = "Event forwarded (unified sender, that forwards messages to correct receivers)"
 
 [dependencies]
 log = "0.4.8"
